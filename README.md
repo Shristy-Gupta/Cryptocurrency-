@@ -8,17 +8,25 @@ http://127.0.0.1:5002/
 
 http://127.0.0.1:5003/
 
-GET Requests:
+# GET Requests:
+
 mine_block: Mines the new block
+
 get_chain: Returns the all the blocks attached to a perticular node
+
 is_valid: If the current mined block is valid
+
 replace_chain: Replacing the chain with the longest chain if needed in a decentralized network
 
 
 
-POST Requests:
+
+# POST Requests:
+
 add_transaction: Adds the transaction to the newest block. Uses transaction.json in POST request
+
 connect_node: Connect the node with other nodes in the decentralized network. Use nodes.json in POST request
+
 
 
 Some snippets from Postman
